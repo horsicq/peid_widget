@@ -18,12 +18,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-#include "nfd_widget.h"
+#include "peid_widget.h"
 
-#include "ui_nfd_widget.h"
-
-PEID_Widget::PEID_Widget(QWidget *pParent) : XShortcutsWidget(pParent), ui(new Ui::NFD_Widget)
+PEID_Widget::PEID_Widget(QWidget *pParent) : XScanEngineWidget(pParent)
 {
+
 }
 
 PEID_Widget::~PEID_Widget()

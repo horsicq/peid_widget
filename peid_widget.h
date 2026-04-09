@@ -21,17 +21,14 @@
 #ifndef PEID_WIDGET_H
 #define PEID_WIDGET_H
 
-#include <QFutureWatcher>
-#include <QWidget>
-#include <QtConcurrent>
+#include "xscanenginewidget.h"
 
-#include "xshortcutswidget.h"
-
-class PEID_Widget : public XShortcutsWidget {
+class PEID_Widget : public XScanEngineWidget {
     Q_OBJECT
 
 public:
     explicit PEID_Widget(QWidget *pParent = nullptr);
+    ~PEID_Widget();
 };
 
 #endif  // PEID_WIDGET_H
