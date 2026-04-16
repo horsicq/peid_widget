@@ -22,6 +22,7 @@
 #define PEID_WIDGET_H
 
 #include "xscanenginewidget.h"
+#include "xpeid.h"
 
 class PEID_Widget : public XScanEngineWidget {
     Q_OBJECT
@@ -29,6 +30,9 @@ class PEID_Widget : public XScanEngineWidget {
 public:
     explicit PEID_Widget(QWidget *pParent = nullptr);
     ~PEID_Widget();
+
+private:
+    XPEID xpeid;
 };
 
 #endif  // PEID_WIDGET_H

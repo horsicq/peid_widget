@@ -1,4 +1,4 @@
-/* Copyright (c) 2020-2026 hors<horsicq@gmail.com>
+/* Copyright (c) 2026 hors<horsicq@gmail.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -22,7 +22,7 @@
 
 PEID_Widget::PEID_Widget(QWidget *pParent) : XScanEngineWidget(pParent)
 {
-
+    setEngine(&xpeid);
 }
 
 PEID_Widget::~PEID_Widget()
