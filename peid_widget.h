@@ -32,7 +32,7 @@ public:
     ~PEID_Widget();
 
 private:
-    XPEID xpeid;
+    XPEID m_xpeid;
 };
 
 #endif  // PEID_WIDGET_H

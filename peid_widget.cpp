@@ -22,7 +22,7 @@
 
 PEID_Widget::PEID_Widget(QWidget *pParent) : XScanEngineWidget(pParent)
 {
-    setEngine(&xpeid);
+    setEngine(&m_xpeid);
 }
 
 PEID_Widget::~PEID_Widget()
